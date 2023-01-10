@@ -10,7 +10,7 @@ In my body I created div sections to hold my timer, start screen, questions, and
 Next I began to fill in parts of the HTML such as the H1 element with a short paragraph after, setting up my quiz section was odd for me because it looks strange to have nothing written but I am trusting the process in that my javascript will fill in the rest. Lastly you will see my ending screen which tells the user that the quiz is over and invites the user to share their initials with their highscore. 
 
 CSS
-
+cut and dry 
 
 
 
