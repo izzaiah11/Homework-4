@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <link rel="stylesheet" href="styles.css">
+      <title>Javascript quiz</title>
+      </head>
+    <body>
+
+        <div id="timer">Timer: <span id="time">60</span></div>
+        
+        <div class="wrapped">
+            <div id="start-screen" class="start">
+            <h1 id="heading">Javascript quiz</h1>
+            <p>Test your Javascript knowledge. Push start to begin.</p>
+            <button id="start">Start the Quiz</button>
+            </div>
+        </div>
+
+        <div id="questions" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+
+        <div id="end-screen" class="hide">
+            <h2>You finished!</h2>
+            <p>Final score<span id="final-score"></span>.</p>
+            <p>
+              Enter your initials: <input type="text" id="initials" max="3" />
+              <button id="submit">Submit</button>
+            </p>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+
+        <script src="./Javascript/questions.js"></script>
+        <script src="./Javascript/script.js"></script>
+
+
+    </body>
+    </html>
